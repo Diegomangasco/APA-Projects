@@ -41,10 +41,10 @@ boolean endian()    //funzione per capire che tipo di codifica usa il mio pc
 {
     unsigned int i=1;
     char *b = (char*)&i;    //ora b punta alla cella di memoria che prima era puntata da p
-    if(*b)                  //dato che b è di tipo char, ogni cella occupa in memoria uno spazio di un byte
-        return false;        // se la prima cella (quella puntata da b) contiene 7 bit di zeri ed un bit di 1, allora siamo di fronte ad una codifica big endian (il byte più significativo è il primo)
+    if(*b)                  //dato che b Ã¨ di tipo char, ogni cella occupa in memoria uno spazio di un byte
+        return false;        // se la prima cella (quella puntata da b) contiene 7 bit di zeri ed un bit di 1, allora siamo di fronte ad una codifica big endian (il byte piÃ¹ significativo Ã¨ il primo)
     else
-        return true;       // se la prima cella (quella puntata da b) contiene 8 bit di zeri, allora siamo di fronte ad una codifica little endian (il byte più significativo è l'ultimo)
+        return true;       // se la prima cella (quella puntata da b) contiene 8 bit di zeri, allora siamo di fronte ad una codifica little endian (il byte piÃ¹ significativo Ã¨ l'ultimo)
 }
 void stampaCodifica(void *p,int size,boolean bigEndian)
 {
