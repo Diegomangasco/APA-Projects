@@ -1,0 +1,5 @@
+A1234 Diego Gasco 16/02/1999 Langhe Carru 12061
+B1234 Enrico Magliano 15/03/1999 Nava Magliano 12060
+C1234 Amine Hamdi 11/09/1999 Italia Mondovi 12084
+D1234 Davide Garrone 11/04/1999 Marconi San_Mauro 11378
+E1234 Luigi Molinengo 23/05/1999 Roma Costigliole 66578
